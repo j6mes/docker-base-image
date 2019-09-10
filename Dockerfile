@@ -1,7 +1,5 @@
 FROM continuumio/miniconda3
 
-ENTRYPOINT ["/bin/bash"]
-
 ENV NVIDIA_VISIBLE_DEVICES all
 ENV NVIDIA_DRIVER_CAPABILITIES compute,utility
 
