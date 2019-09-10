@@ -24,3 +24,5 @@ RUN apt-get install -y --no-install-recommends \
 
 RUN conda update -q conda
 
+ADD requirements.txt /tmp
+RUN pip install -r /tmp/requirements.txt
