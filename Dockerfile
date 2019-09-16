@@ -18,7 +18,8 @@ RUN apt-get install -y --no-install-recommends \
     autoconf \
     pkg-config \
     unzip \
-    nano
+    nano \
+    rsync
 
 RUN conda update -q conda
 
